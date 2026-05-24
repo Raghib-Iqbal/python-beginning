@@ -1,10 +1,10 @@
 
-# indoor.py    0 0 
+# indoor.py    0 0
 # x=input('').strip().lower()
-#print(x);
+# print(x);
 
 
-#plaback.py 0 1
+# plaback.py 0 1
 
 
 # print(x.replace(' ','...'))
@@ -17,7 +17,7 @@
 # x= int((input('m: ')))
 # print(f'E: {x*pow(3*10**8,2)}')
 
-# tip calculate 0 4 
+# tip calculate 0 4
 # def main():
 #     dollars = dollars_to_float(input("How much was the meal? "))
 #     percent = percent_to_float(input("What percentage would you like to tip? "))
@@ -27,7 +27,6 @@
 
 # def dollars_to_float(d):
 #     return float(d.replace('$',''))
-
 
 
 # def percent_to_float(p):
@@ -59,8 +58,8 @@
 # else:
 #     print('$ 100')
 
-                                                                # name= 'hellow raghib' reverser something
-                                                                # print(name[::-1])
+# name= 'hellow raghib' reverser something
+# print(name[::-1])
 
 # File Extensions 1 2
 
@@ -70,13 +69,13 @@
 # print(f'Image/{y}')
 
 # Math Interpreter 1 3
-################### method 1
+# method 1
 # ex=input('Expression: ')
 # print(eval(ex))
-  
-################## method 2
-# ex = input('Expression: ') 
-# num1, y, num2 = float(ex[0]), ex[1], float(ex[2]) 
+
+# method 2
+# ex = input('Expression: ')
+# num1, y, num2 = float(ex[0]), ex[1], float(ex[2])
 # if y == '+':
 #     result = num1 + num2
 # elif y == '-':
@@ -90,12 +89,10 @@
 # print(result)
 
 
-
-# Meal Time 1 3      
+# Meal Time 1 3
 # def main():
 #     time =input('what\'s time it is ?')
 #     print(convert(time))
-
 
 
 # def convert(time):
@@ -113,7 +110,6 @@
 
 # if __name__ == "__main__":
 #     main()
-
 
 
 # camelCase 2 0 camel.py
@@ -141,8 +137,8 @@
 #         print(f'Change Owned: {price*-1}')
 #         break
 #     print(f'Amount Due :{price}')
-     
-#Just setting up my twttr 2 2 twttr
+
+# Just setting up my twttr 2 2 twttr
 # string=input('Input :')
 
 # result=''
@@ -152,7 +148,7 @@
 #         result+=''
 #     else:
 #         result+=s
- 
+
 
 # print(f'Output : {result}')
 
@@ -193,15 +189,91 @@
 
 # Nutrition Facts 2 4 nutrition.py
 
-items=[
-      {'name':'Apple','calories':130},
-        {'name':'Banana','calories':110},
-      {'name':'Avocado','calories':50},
-     {'name':'Cantaloupe','calories':50},
-]
-x= input('Item :').strip().title()
+# items = [
+#     {'name': 'Apple', 'calories': 130},
+#     {'name': 'Banana', 'calories': 110},
+#     {'name': 'Avocado', 'calories': 50},
+#     {'name': 'Cantaloupe', 'calories': 50},
+#     {'name': 'Grapefruit', 'calories': 60},
+#     {'name': 'Grapes', 'calories': 90},
+#     {'name': 'Honeydew Melon', 'calories': 50},
+#     {'name': 'Lemon', 'calories': 15},
+#     {'name': 'Lime', 'calories': 20},
 
-for item in items:
-    if item['name']== x:
-        print(f'Calories :{item["calories"]}')
+
+# ]
+# x = input('Item :').strip().title()
+# for item in items:
+#     if item['name'] == x:
+#         print(f'Calories :{item["calories"]}')
+
+# Fuel Gauge 3 0 fuel.py
+
+# x=input('Fraction :')
+# one,two=x.split('/')
+# one=float(one)
+# two=float(two)
+# print(f'{round(one*100/two)}% ')
+
+# Felipe’s Taqueria 3 1 taqueria.py
+
+# items = {
+#     "Baja Taco": 4.25,
+#     "Burrito": 7.50,
+#     "Bowl": 8.50,
+#     "Nachos": 11.00,
+#     "Quesadilla": 8.50,
+#     "Super Burrito": 8.50,
+#     "Super Quesadilla": 9.50,
+#     "Taco": 3.00,
+#     "Tortilla Salad": 8.00
+# }
+# cost=0
+# while True:
+#     if(x=='D'):
+#         break
+#     x = input('Item:').title().strip()
+#     cost+=items[x]
+#     print(f'Total: ${cost}')
+
+#Grocery List 3 2
+
+# array=[]
+# print('write exist after done')
+# while True:
+#     x=input('Items:').strip().title()
+#     if(x=='Exit'):
+#         break
+#     array.append(x)
+# for i in range(len(array)):
+#     print(f'{i+1}. {array[i]}')
+
+# Outdated 3 3 outdated.py
+
+# month=[
+# "January","February","March","April","May","June","July","August",
+# "September","October","November","December"
+# ]
+# while True :
+#     x= input('Date: ').strip()
+#     try:
+#         if '/' in x:
+#             m,d,y=x.split('/')
+#             print(f'{y}-{m}-{d}')
+#             break
+#         else:
+#             md,y=x.split(',')
+#             m,d=md.split()
+#             print(f'{y}-{month.index(m)}-{d}')
+#             break
+#     except ValueError:
+#         pass
+
+  
+
+
+
+
+
+
 
